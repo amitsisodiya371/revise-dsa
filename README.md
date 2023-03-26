@@ -1,1 +1,1 @@
-# revicse-dsa
+# revise-dsa

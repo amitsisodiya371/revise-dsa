@@ -82,9 +82,8 @@ class Main {
         boolean f = false;
         Arrays.sort(nums);
         while(l<r){
-            for(int i=0;i<nums.length;i++)
             if(nums[l]+nums[r]==t){
-                // System.out.println("yes");
+                // System.out.println(l+" "+r);
                 f=true;
             }else if(nums[l]+nums[r]>t){
                 r--;
